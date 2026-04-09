@@ -1,5 +1,7 @@
 package OOPs;
 
+import java.util.Scanner;
+
 public class PrivateKeyword {
     public static class Students{
         String name = "Dubeyji";// agr yha pr name initialize nhi kia hu like ki kisi ka name nhi likha hu tb asa hoga to "null" hoga
@@ -20,6 +22,7 @@ public class PrivateKeyword {
 //
     }
     public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
         Students s1 = new Students();
         //s1.p();
         //System.out.println(s1.name);
@@ -29,6 +32,9 @@ public class PrivateKeyword {
         // s1.rno = 45; let it is giving an error
         s1.setRno(45);
         System.out.println(s1.getRno());
+
+        StringBuilder sb = new StringBuilder(sc.nextLine());
+        System.out.println(sb);
 
     }
 }
