@@ -24,7 +24,7 @@ public class thisConstructorfromAnotherConstructor {
 
         public static void main(String[] args) {
             // Create a car with only model name (uses default year)
-            thisConstructorfromAnotherConstructor car1 = new thisConstructorfromAnotherConstructor("Corvette");
+            thisConstructorfromAnotherConstructor car1 = new thisConstructorfromAnotherConstructor("Bentley");
 
             // Create a car with both model year and name
             thisConstructorfromAnotherConstructor car2 = new thisConstructorfromAnotherConstructor(1969, "Mustang");
