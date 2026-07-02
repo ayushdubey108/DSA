@@ -1,18 +1,18 @@
 package Linkedlist;
-class Node{
+class ListNode {
     int val;
-    Node next; // Here node is a Data Type for next variable
-    Node(int val) {
+    ListNode next; // Here node is a Data Type for next variable
+    ListNode(int val) {
         this.val = val;
-    }
+    } // ye line uske liye h jo andr dala hu brckt me val
 }
 public class LinkedList {
     public static void main(String[] args) {
-        Node a = new Node(10); // Head Node
-        Node b = new Node(20);
-        Node c = new Node(30);
-        Node d = new Node(40);
-        Node e = new Node(50);
+        ListNode a = new ListNode(10); // Head Node
+        ListNode b = new ListNode(20); // I SAY a.val = 10;
+        ListNode c = new ListNode(30);
+        ListNode d = new ListNode(40);
+        ListNode e = new ListNode(50);
         //System.out.println(a.next);
         // Connect karenge(Link karenge)
         a.next = b;
@@ -26,5 +26,6 @@ public class LinkedList {
         System.out.println(c);
         System.out.println(b.next);
         System.out.println(a.next.next);
+        System.out.println(a.next.next.val);
     }
 }

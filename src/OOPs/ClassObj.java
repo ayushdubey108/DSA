@@ -3,7 +3,7 @@ package OOPs;
 import java.util.Scanner;
 
 public class ClassObj {
-    // CLASS BANA LO AISE KAR KE!!!!!!!!!!!!!!!!!!
+    // CLASS BANA LO AISE KAR KE!!!!!!!!!!!!!!!!!!this is oufirst question
     public static class Student{ // khud ka ek data type bna liya hai hamne
         String name;
         int rno;

@@ -12,7 +12,7 @@ public class FirstAndLastPosition {
             ans[1] = search(nums, target, false);
         }
         return ans;
-    }
+    }// maine apni development aur english apt ki cpy rakha hu
 
     // this function just returns the index value of target
     int search(int[] nums, int target, boolean findStartIndex) {

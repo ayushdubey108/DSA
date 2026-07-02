@@ -7,7 +7,7 @@ public class BasicLearn3 {
         }
         System.out.println();
     }
-    public static void main(String[] args) {
+    public static void main(String[] args) {// THIS IS BASED ON FUNCTIONS Calling
         System.out.println("Hi, Morning");//111
         pehla();//222
         System.out.println("Ram");//444

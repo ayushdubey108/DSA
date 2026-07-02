@@ -5,7 +5,7 @@ public class ChangeX {
         x = 20;
     }
     public static void main(String[] args) {
-        int x = 10;
+        int x = 35;
         System.out.println(x);
         change(x);
         System.out.println(x);

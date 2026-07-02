@@ -15,10 +15,12 @@ public class A1141 {
                 m /= 3;
             } else {
                 System.out.println(-1);
+                return;
             }
             moves++;
         }
-        System.out.println(moves);
+        if (m == n) System.out.println(moves);
+        else System.out.println(-1);
 
     }
 }

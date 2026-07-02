@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class BasicLearn {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        //<-------------------Start Learning New Terms--------------->
+        //<--------------Start Learning New Terms-------------->
         System.out.println(Math.pow(3.14,3.14));
         System.out.println(Math.sqrt(3.14));
         System.out.println(Math.cbrt(3.1415));
@@ -14,6 +14,5 @@ public class BasicLearn {
         //IF I HAVE TO CALCULATE THE MAXIMUM OF THREE NUMBERS THEN DO LIKE THIS SYNTAX WAY......
         int a = 5, b = 45, c = 8,d=9;
         System.out.println(Math.max(Math.max(a,b),Math.max(b,d)));
-
     }
 }
