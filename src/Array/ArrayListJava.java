@@ -12,9 +12,9 @@ public class ArrayListJava {
         System.out.println(arr.get(4));
         arr.set(3,50); // iska mtlb hai ki arr[3]=50 hai!!!!!!
         System.out.println(arr);
-        int n=arr.size(); // arr.length
+        int n=arr.size(); // ye arr.length hai y
         for(int i=0;i<n;i++){
-            System.out.print(arr.get(i)+" ");
+            System.out.println(arr.get(i)+" ");
         }
         for(int ele : arr){
             System.out.print(ele+" ");

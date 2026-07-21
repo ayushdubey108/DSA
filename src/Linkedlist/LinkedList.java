@@ -25,7 +25,8 @@ public class LinkedList {
         System.out.println(a.next);// this is also same like "above" sout(a) & sout(b);
         System.out.println(c);
         System.out.println(b.next);
-        System.out.println(a.next.next);
+        System.out.println(b.next.next.val);
+        System.out.println(c.next.val);
         System.out.println(a.next.next.val);
     }
 }

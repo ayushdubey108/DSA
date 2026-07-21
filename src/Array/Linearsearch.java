@@ -2,7 +2,7 @@ package Array;
 public class Linearsearch {
     public static void main(String[] args) {
 
-        int[] arr = {2, 3, 4, 5, 6, 7, 8, 9, 23, 41, 53};
+        int[] arr = {2, 3, 4, 5, 6,7,8,9,34,54,98,23};
         int x = 99;
         boolean flag = false;// nahi milaa
         for (int i = 0; i < arr.length; i++) {

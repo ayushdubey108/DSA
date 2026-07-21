@@ -7,6 +7,11 @@ public class A1141 {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
         int m = sc.nextInt();
+
+        int div = m/n;
+        System.out.println(div);
+        // if i do stopping potential of the function starting the moves of first
+        // print division and then find lcm of a number
         int moves = 0;
         while (m > n) {
             if (m % 2 == 0) {
