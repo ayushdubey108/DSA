@@ -10,6 +10,17 @@ class LinkList { // user defined data structure
     DataNode head; // null
     DataNode tail; // null what i talk about is this
     int size;
+    int search(int val){
+        if(head==null) return -1;
+        DataNode temp = head;
+        int idx = 0;
+        while(temp != null) {
+            if (temp.val == val) return idx;
+                temp = temp.next;
+                idx++;
+        }
+        return -1;
+    }
 
     void addAtHead(int val){
         DataNode temp = new DataNode(val);
@@ -111,5 +122,8 @@ public class LinkedListDataStructure {
         //System.out.println(l1.get(4));
         l1.delete(2);
         l1.display();
+
+        System.out.println(l1.search(40));
+
     }
 }
