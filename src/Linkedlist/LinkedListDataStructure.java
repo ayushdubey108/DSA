@@ -63,6 +63,13 @@ class LinkList { // user defined data structure
         }
         System.out.println();
     }
+    int get(int idx){
+        DataNode temp = head;
+        for (int i = 0; i <= idx; i++) {
+            temp = temp.next;
+        }
+        return temp.val;
+    }
 
     void insert(int val, int idx) {
         if (idx < 0 || idx > size)
