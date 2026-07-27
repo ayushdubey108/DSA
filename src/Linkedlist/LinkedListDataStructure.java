@@ -129,8 +129,7 @@ public class LinkedListDataStructure {
         //System.out.println(l1.get(4));
         l1.delete(2);
         l1.display();
-
+        
         System.out.println(l1.search(40));
-
     }
 }
