@@ -1,4 +1,4 @@
-package Linkedlist;
+package LinkedList;
 class ListNode {
     int val;
     ListNode next; // Here node is a Data Type for next variable

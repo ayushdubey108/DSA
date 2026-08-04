@@ -1,4 +1,4 @@
-package Linkedlist;
+package LinkedList;
 class DataNode{
     int val, idx;
     DataNode next;
