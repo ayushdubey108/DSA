@@ -1,6 +1,8 @@
+package Leetcode;
+
 import java.util.Scanner;
 
-public class Main {
+public class LC977 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
