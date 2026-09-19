@@ -4,6 +4,7 @@ import java.util.LinkedList;
 import java.util.Queue;
 
 class Node{
+    public Integer data;
     int val;
     Node left;
     Node right;
