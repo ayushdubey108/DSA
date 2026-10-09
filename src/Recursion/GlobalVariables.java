@@ -14,7 +14,7 @@ public class GlobalVariables {
         x=7;// local variable dclaration
         // ham aisa bhi nahi kr skte hai int x = 9; ek hi me do br declare ghanghor paap hai
         System.out.println(x);
-       // fun1();
+        //fun1();
         System.out.println(x);
     }
     public static void fun1(){

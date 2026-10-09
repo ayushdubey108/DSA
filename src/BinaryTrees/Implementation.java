@@ -47,7 +47,7 @@ public class Implementation {
 //        levelOrder(a);
 //        levelOrderLineWise(a);
         //for(int i=0;i<levels(a);i++){ // O(n^2)
-            kThLevel(a,0,2);
+            //kThLevel(a,0,2);
             //System.out.println();
         //}
 
@@ -58,7 +58,7 @@ public class Implementation {
 //        System.out.println(size(a));
 //        System.out.println(sum(a));
 //        System.out.println(prdct(a));
-//        System.out.println(levels(a));
+       System.out.println(levels(a));
 
     }
 
@@ -100,10 +100,10 @@ public class Implementation {
         System.out.println();
     }
 
-//    private static int levels(Node root){
-//        if(root == null) return 0;
-//        return Math.max(levels(root.left), levels(root.right)) + 1;
-//    }
+    private static int levels(Node root){
+        if(root == null) return 0;
+        return Math.max(levels(root.left), levels(root.right)) + 1;
+    }
 //
 //    private static int size(Node root) {
 //        if (root == null) return 0;
